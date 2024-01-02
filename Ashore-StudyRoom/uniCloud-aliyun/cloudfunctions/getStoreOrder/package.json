@@ -1,0 +1,7 @@
+{
+  "name": "getStoreOrder",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

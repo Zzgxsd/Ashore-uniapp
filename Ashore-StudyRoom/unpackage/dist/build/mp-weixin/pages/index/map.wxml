@@ -1,0 +1,1 @@
+<view class="page-body data-v-710b030b"><view class="page-section data-v-710b030b"><map style="width:100%;height:300px;" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{covers}}" class="data-v-710b030b"></map></view></view>

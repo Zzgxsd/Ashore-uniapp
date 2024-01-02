@@ -1,0 +1,114 @@
+<template>
+	<view class="body">
+		<view class="TimeTitle">
+			上岸-时长排行榜
+		</view>
+		<u-skeleton :rows="1" titleWidth="60%" titleHeight="10px" rowsHeight="10" v-for="item in Timelist.length"
+			v-if="isArticleLoading" avatarSize="50" avatar :animate="true" loading></u-skeleton>
+		<view class="list" v-if="!isArticleLoading" v-for="(item,index) in Timelist" :key="index">
+			<view class="Ranking">
+				{{index+1}}
+			</view>
+			<u-avatar :text="item.Nickname.slice(0, 1) ? item.Nickname.slice(0, 1) : item.user_name.slice(0, 3)"
+				size="50" fontSize="18" randomBgColor></u-avatar>
+			<view class="box">
+				<p class="user_name">{{item.Nickname ? item.Nickname : item.user_name}}</p>
+				<p class="time">自习时长：{{item.studytime}}</p>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				Timelist: [],
+				isArticleLoading: true,
+				TXimg: "",
+				Nickname: ""
+			}
+		},
+		methods: {
+			getData() {
+				uniCloud.callFunction({
+					name: "getUser",
+				}).then(res => {
+					console.log(res.result.data);
+					let arr = res.result.data
+					this.Timelist = arr.sort((a, b) => b.studytime - a.studytime)
+				})
+			}
+		},
+		onLoad() {
+			this.getData()
+			// 延时2秒钟
+			uni.$u.sleep(2000).then(() => {
+				this.isArticleLoading = false
+			})
+		}
+	}
+</script>
+
+<style lang="scss">
+	.body {
+		padding: 20px;
+
+		.TimeTitle {
+			height: 20vh;
+			background-color: #03BB7A;
+			color: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 25px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+
+		.list {
+			background-color: #8abba7;
+			padding: 4px 10px;
+			display: flex;
+			margin: 10px 0;
+			border-radius: 15px;
+
+			.Ranking {
+				display: flex;
+				align-items: center;
+				font-size: 18px;
+				font-weight: bold;
+				color: #d1894e;
+				margin: 0 10px;
+			}
+
+			image {
+				width: 50px;
+				height: 50px;
+				border: 5px solid #fff;
+				border-radius: 50%;
+				margin-right: 5px;
+			}
+
+			.box {
+				margin-left: 10rpx;
+
+				.user_name {
+					font-size: 18px;
+					color: #fff;
+					font-weight: bold;
+				}
+
+				.time {
+					font-size: 14px;
+					color: #ffaa00;
+					margin-top: 5px;
+					// background-color: #fff;
+					// text-align: center;
+					// width: 100px;
+					// border-radius: 10px;
+				}
+			}
+		}
+	}
+</style>

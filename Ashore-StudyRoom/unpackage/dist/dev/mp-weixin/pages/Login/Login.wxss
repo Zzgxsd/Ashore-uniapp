@@ -1,0 +1,33 @@
+
+.loginp{
+	margin: 10px 0;
+	height: 40px;
+	padding: 0 10px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+.wrapper {
+	margin: 0 auto;
+	margin-top: 150rpx;
+	padding: 70rpx 70rpx 20rpx;
+	width: 500rpx;
+	border-radius: 30rpx;
+	background: #fff;
+	opacity: .8;
+}
+.d-flex {
+	display: flex;
+}
+.m-3 {
+	justify-content: space-between;
+	font-size: 25rpx;
+}
+.forget-password {
+	color: #F9BD69;
+	margin-bottom: 60rpx;
+}
+.checkbox {
+	font-size: 25rpx;
+	color: #ccc;
+}
+

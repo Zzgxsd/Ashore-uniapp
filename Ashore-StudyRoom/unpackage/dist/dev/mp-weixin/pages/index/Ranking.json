@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "时长排行榜",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-skeleton": "/uni_modules/uview-ui/components/u-skeleton/u-skeleton",
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar"
+  }
+}

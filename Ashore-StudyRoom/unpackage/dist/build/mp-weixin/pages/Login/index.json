@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "无人自习室",
+  "usingComponents": {
+    "login-vue": "/pages/Login/Login",
+    "signin-vue": "/pages/Login/Signin"
+  }
+}

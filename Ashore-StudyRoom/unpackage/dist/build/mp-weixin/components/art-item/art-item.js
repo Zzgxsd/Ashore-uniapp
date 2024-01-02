@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/art-item/art-item"],{"09d8":function(t,e,n){"use strict";var i=n("38b5"),u=n.n(i);u.a},"38b5":function(t,e,n){},"3c4c":function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={name:"art-item",props:{item:{type:Object,default:function(){return{}}}},data:function(){return{}},methods:{goDetail:function(){t.navigateTo({url:"/pages/index/StoreInquiryDetail?id="+this.item._id})},clickPic:function(e){t.previewImage({urls:this.item.picurls,current:e})}}};e.default=n}).call(this,n("543d")["default"])},"484b":function(t,e,n){"use strict";n.r(e);var i=n("ee55"),u=n("eec4");for(var r in u)["default"].indexOf(r)<0&&function(t){n.d(e,t,(function(){return u[t]}))}(r);n("09d8");var o=n("f0c5"),c=Object(o["a"])(u["default"],i["b"],i["c"],!1,null,"46780906",null,!1,i["a"],void 0);e["default"]=c.exports},ee55:function(t,e,n){"use strict";n.d(e,"b",(function(){return u})),n.d(e,"c",(function(){return r})),n.d(e,"a",(function(){return i}));var i={uAvatar:function(){return Promise.all([n.e("common/vendor"),n.e("uni_modules/uview-ui/components/u-avatar/u-avatar")]).then(n.bind(null,"2ef6"))},uIcon:function(){return Promise.all([n.e("common/vendor"),n.e("uni_modules/uview-ui/components/u-icon/u-icon")]).then(n.bind(null,"7153"))}},u=function(){var t=this.$createElement,e=(this._self._c,this.$u.timeFormat(this.item.posttime,"mm月dd日 hh时MM分")),n=this.item.picurls.length;this.$mp.data=Object.assign({},{$root:{g0:e,g1:n}})},r=[]},eec4:function(t,e,n){"use strict";n.r(e);var i=n("3c4c"),u=n.n(i);for(var r in i)["default"].indexOf(r)<0&&function(t){n.d(e,t,(function(){return i[t]}))}(r);e["default"]=u.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/art-item/art-item-create-component',
+    {
+        'components/art-item/art-item-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("484b"))
+        })
+    },
+    [['components/art-item/art-item-create-component']]
+]);

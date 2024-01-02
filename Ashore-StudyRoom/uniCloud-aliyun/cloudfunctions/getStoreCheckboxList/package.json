@@ -1,0 +1,7 @@
+{
+  "name": "updateStoreCheckboxList",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

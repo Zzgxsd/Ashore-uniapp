@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "明星商家",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-skeleton": "/uni_modules/uview-ui/components/u-skeleton/u-skeleton"
+  }
+}

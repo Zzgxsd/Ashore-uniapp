@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "上岸论坛",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-skeleton": "/uni_modules/uview-ui/components/u-skeleton/u-skeleton",
+    "art-item": "/components/art-item/art-item",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon"
+  }
+}

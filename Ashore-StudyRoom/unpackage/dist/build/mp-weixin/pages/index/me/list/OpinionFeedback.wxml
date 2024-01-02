@@ -1,0 +1,1 @@
+<view class="body"><view class="opinion"><textarea name id cols="30" rows="10" placeholder="请输入反馈内容，我们会为您更好服务"></textarea><view class="cpu"><label class="_span">{{write+"/"+total}}</label></view><view class="picture"><view class="send">上传照片</view></view><button>提交反馈</button></view></view>

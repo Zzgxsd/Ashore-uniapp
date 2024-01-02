@@ -1,0 +1,7 @@
+{
+  "name": "getStoreList",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,273 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Login/index",
+			"style": {
+				"navigationBarTitleText": "无人自习室"
+			}
+		},
+		{
+			"path": "pages/index/StoreInquiry",
+			"style": {
+				"navigationBarTitleText": "上岸论坛",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/addText",
+			"style": {
+				"navigationBarTitleText": "新增文章",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/Yuyue/PayIndex",
+			"style": {
+				"navigationBarTitleText": "支付",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/Yuyue/MdIndex",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/Yuyue/Yuyue",
+			"style": {
+				"navigationBarTitleText": "预约",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/Saoma/Saoma",
+			"style": {
+				"navigationBarTitleText": "扫码",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/Lianxi/Lianxi",
+			"style": {
+				"navigationBarTitleText": "联系",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/me/me",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/map",
+			"style": {
+				"navigationBarTitleText": "地图",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/Yuyue/mendian",
+			"style": {
+				"navigationBarTitleText": "门店",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/index/me/MyOrder/MyOrder",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/me/MyOrder/PendPayment",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/me/MyOrder/PendComment",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/me/MyOrder/Paid",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/me/Setup/Setup",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/index/Ranking",
+			"style": {
+				"navigationBarTitleText": "时长排行榜",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/StarStore",
+			"style": {
+				"navigationBarTitleText": "明星商家",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/Activity",
+			"style": {
+				"navigationBarTitleText": "优惠活动",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/StoreInquiryDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/index/me/MyOrder/PaidDetails/PaidDetails",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/me/list/MyAccount",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的账户",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/me/list/TimeExchange",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "时长兑换",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/me/list/AddressCollection",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收藏地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/me/list/Recommend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "推客",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/me/list/Distribution",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的分销",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/me/list/OpinionFeedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "意见反馈",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/index/Lianxi/chat",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "聊天",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "上岸自习室",
+		"navigationBarBackgroundColor": "#03BB7A",
+		"navigationBarTextStyle": "white",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#03BB7A",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/31shouye.png",
+				"selectedIconPath": "static/icon/31shouyexuanzhong.png",
+				"text": "首页"
+			}, {
+				"pagePath": "pages/index/Yuyue/Yuyue",
+				"iconPath": "static/icon/wodeyuyue.png",
+				"selectedIconPath": "static/icon/yuyue.png",
+				"text": "预约"
+			},
+			{
+				"pagePath": "pages/index/Saoma/Saoma",
+				"iconPath": "static/icon/saoma.png",
+				"selectedIconPath": "static/icon/saoma.png",
+				"text": "扫码"
+			},
+			{
+				"pagePath": "pages/index/Lianxi/Lianxi",
+				"iconPath": "static/icon/xiaoxi.png",
+				"selectedIconPath": "static/icon/xiaoxi_1.png",
+				"text": "联系"
+			},
+			{
+				"pagePath": "pages/index/me/me",
+				"iconPath": "static/icon/wode.png",
+				"selectedIconPath": "static/icon/wodedamaijihuo.png",
+				"text": "我的"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

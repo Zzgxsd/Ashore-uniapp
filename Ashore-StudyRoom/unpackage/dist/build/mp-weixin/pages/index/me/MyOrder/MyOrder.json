@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-subsection": "/uni_modules/uview-ui/components/u-subsection/u-subsection",
+    "paid-vue": "/pages/index/me/MyOrder/Paid",
+    "pend-comment-vue": "/pages/index/me/MyOrder/PendComment",
+    "pend-payment-vue": "/pages/index/me/MyOrder/PendPayment"
+  }
+}

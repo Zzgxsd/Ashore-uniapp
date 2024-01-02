@@ -1,0 +1,93 @@
+
+page {
+	background: rgb(241, 241, 241);
+}
+button {
+	outline: none;
+}
+.invite {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+.main {
+	width: 100%;
+	background: rgb(255, 255, 255);
+	margin-top: 10px;
+	border-radius: 8px;
+}
+.top {
+	height: 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: larger;
+	font-weight: 600;
+	background-color: #03BB7A;
+	color: white;
+}
+.center {
+	height: 90px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #03BB7A;
+	color: white;
+}
+.bottom {
+	height: auto;
+	padding-top: 20px;
+}
+.top button {
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	background: rgb(247, 247, 247);
+	margin-top: 10px;
+	border: 0;
+	color: orange;
+}
+.invite>button {
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	margin-top: 70px;
+	border: 0;
+	color: aliceblue;
+	background: rgb(34, 34, 34);
+	border-radius: 8px;
+}
+.bottom>._span {
+	font-weight: 600;
+	font-size: 14px;
+	margin-left: 10px;
+}
+._ol>._li {
+	width: 95%;
+	flex-wrap: wrap;
+	margin: 10px 0 15px 10px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	list-style-position: inside;
+	margin-bottom: 15px;
+}
+.rule {
+	letter-spacing: 0.1rem;
+	flex-wrap: wrap;
+	font-size: smaller;
+}
+.item {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.item>.big {
+	margin: 0 auto;
+	font-weight: 800;
+	font-size: large;
+}
+.item>.small {
+	font-size: small;
+}
+

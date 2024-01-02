@@ -1,0 +1,57 @@
+
+.lianxi {
+	width: 100vw;
+	min-height: 100vh;
+	background-color: #E9E9E9;
+}
+.tabsx {
+	width: 100vw;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 2px solid #03BB7A;
+	background-color: white;
+}
+.liebiao {
+	margin: 10px;
+	padding: 8px;
+	border-radius: 10px;
+	height: 80vh;
+	background-color: white;
+}
+.Notice{
+	margin: 10px;
+	padding: 8px;
+	border-radius: 10px;
+	height: 80vh;
+	background-color: white;
+}
+.lxr{
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	border-bottom:1px solid #ccc;
+	background-color: #f9f9f9;
+}
+.lbleft {
+	display: flex;
+}
+.lbleft image {
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.dm {
+	font-size: 16px;
+	font-weight: bold;
+}
+.jl {
+	font-size: 14px;
+	color: #707070;
+}
+.sj {
+	color: #cccccc;
+	font-size: 14px;
+}
+

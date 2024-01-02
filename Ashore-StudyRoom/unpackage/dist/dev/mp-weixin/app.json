@@ -1,0 +1,84 @@
+{
+  "pages": [
+    "pages/Login/index",
+    "pages/index/StoreInquiry",
+    "pages/index/addText",
+    "pages/index/Yuyue/PayIndex",
+    "pages/index/Yuyue/MdIndex",
+    "pages/index/Yuyue/Yuyue",
+    "pages/index/index",
+    "pages/index/Saoma/Saoma",
+    "pages/index/Lianxi/Lianxi",
+    "pages/index/me/me",
+    "pages/index/map",
+    "pages/index/Yuyue/mendian",
+    "pages/index/me/MyOrder/MyOrder",
+    "pages/index/me/MyOrder/PendPayment",
+    "pages/index/me/MyOrder/PendComment",
+    "pages/index/me/MyOrder/Paid",
+    "pages/index/me/Setup/Setup",
+    "pages/index/Ranking",
+    "pages/index/StarStore",
+    "pages/index/Activity",
+    "pages/index/StoreInquiryDetail",
+    "pages/index/me/MyOrder/PaidDetails/PaidDetails",
+    "pages/index/me/list/MyAccount",
+    "pages/index/me/list/TimeExchange",
+    "pages/index/me/list/AddressCollection",
+    "pages/index/me/list/Recommend",
+    "pages/index/me/list/Distribution",
+    "pages/index/me/list/OpinionFeedback",
+    "pages/index/Lianxi/chat"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "上岸自习室",
+    "navigationBarBackgroundColor": "#03BB7A",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#03BB7A",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/31shouye.png",
+        "selectedIconPath": "static/icon/31shouyexuanzhong.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/Yuyue/Yuyue",
+        "iconPath": "static/icon/wodeyuyue.png",
+        "selectedIconPath": "static/icon/yuyue.png",
+        "text": "预约"
+      },
+      {
+        "pagePath": "pages/index/Saoma/Saoma",
+        "iconPath": "static/icon/saoma.png",
+        "selectedIconPath": "static/icon/saoma.png",
+        "text": "扫码"
+      },
+      {
+        "pagePath": "pages/index/Lianxi/Lianxi",
+        "iconPath": "static/icon/xiaoxi.png",
+        "selectedIconPath": "static/icon/xiaoxi_1.png",
+        "text": "联系"
+      },
+      {
+        "pagePath": "pages/index/me/me",
+        "iconPath": "static/icon/wode.png",
+        "selectedIconPath": "static/icon/wodedamaijihuo.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {}
+}
